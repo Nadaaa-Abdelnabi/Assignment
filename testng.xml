@@ -1,0 +1,10 @@
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name=" Regression Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="Regression Test" preserve-order="true"> <!-- preserve-order to run the tests in the classes order as added and not 
+			random -->
+		<classes> <!-- Add here test cases to be executed -->
+			<class name="Tests.MakeOrderTest" />	
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
